@@ -8,6 +8,9 @@ h1 {
     font-weight: 700;
     font-size: 4em;
     margin: 0;
+    
+}
+section {
     padding-bottom: .5em;
 }
 .container {
@@ -34,4 +37,32 @@ a.icon, a.icon:hover {
 }
 .email:hover svg{
     fill: #D14836;
+}
+.dots i {
+    visibility: hidden;
+}
+.dots i:before {
+    font-size: 4em;
+    font-style: normal;
+    content: "\2022";
+    margin-left: .1em;
+    margin-right: .1em;
+}
+.dots i:nth-child(1)  {
+    color: #0077B5;
+}
+.dots i:nth-child(2)  {
+    color: #1DA1F2;
+}
+.dots i:nth-child(3)  {
+    color: #D14836;
+}
+
+@media (max-width:480px){
+    h1 {
+        font-size: 2.5em;
+    }
+    .icon svg {
+        width: 28px;
+    }
 }
