@@ -1,0 +1,35 @@
+html, body {
+    font-family: Raleway, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-weight: 700;
+    font-size: 4em;
+}
+.container {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-40%);
+}
+.icon {
+    padding-right: 1em;
+}
+a.icon, a.icon:hover {
+    color: transparent;
+}
+.icon svg {
+    width: 32px;
+    fill: #999;
+}
+.linkedin:hover svg {
+    fill: #0077B5;
+}
+.twitter:hover svg{
+    fill: #1DA1F2;
+}
+.email:hover svg{
+    fill: #D14836;
+}
