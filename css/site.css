@@ -10,8 +10,8 @@ h1 {
     margin: 0;
     
 }
-section {
-    padding-bottom: .5em;
+.heading {
+    padding-bottom: 2em;
 }
 .container {
     text-align: center;
@@ -38,24 +38,33 @@ a.icon, a.icon:hover {
 .email:hover svg{
     fill: #D14836;
 }
+.dots {
+    position: relative;
+    display: inline-block;
+    width: 10em;
+}
 .dots i {
     visibility: hidden;
+    position: absolute;
+    top: 1em;
 }
 .dots i:before {
     font-size: 4em;
     font-style: normal;
     content: "\2022";
-    margin-left: .1em;
-    margin-right: .1em;
+    line-height: 0;
 }
 .dots i:nth-child(1)  {
     color: #0077B5;
+    left: .5em;
 }
 .dots i:nth-child(2)  {
     color: #1DA1F2;
+    left: 3.8em;
 }
 .dots i:nth-child(3)  {
     color: #D14836;
+    left: 7.05em;
 }
 
 @media (max-width:480px){
