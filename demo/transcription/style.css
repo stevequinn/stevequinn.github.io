@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+}
+h1 {
+  text-align: center;
+}
+.container {
+  margin: 10px auto;
+  width: 600px;
+}
+.speaker {
+  padding-top: 15px;
+}
+.name {
+  width: 100px;
+  color: #999;
+  display: inline-block;
+  vertical-align: top;
+}
+.words {
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+  .name {
+    width: 20%;
+  }
+  .words {
+    width: 80%;
+  }
+}
