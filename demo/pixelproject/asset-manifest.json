@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/demo/pixelproject/static/css/main.fd9ea794.chunk.css",
-    "main.js": "/demo/pixelproject/static/js/main.808ed41b.chunk.js",
-    "main.js.map": "/demo/pixelproject/static/js/main.808ed41b.chunk.js.map",
+    "main.js": "/demo/pixelproject/static/js/main.d4c6e958.chunk.js",
+    "main.js.map": "/demo/pixelproject/static/js/main.d4c6e958.chunk.js.map",
     "runtime~main.js": "/demo/pixelproject/static/js/runtime~main.0c1abbfe.js",
     "runtime~main.js.map": "/demo/pixelproject/static/js/runtime~main.0c1abbfe.js.map",
     "static/js/2.abd5d619.chunk.js": "/demo/pixelproject/static/js/2.abd5d619.chunk.js",
     "static/js/2.abd5d619.chunk.js.map": "/demo/pixelproject/static/js/2.abd5d619.chunk.js.map",
     "index.html": "/demo/pixelproject/index.html",
-    "precache-manifest.2548c28052eefd2e76668563cc2cfe7b.js": "/demo/pixelproject/precache-manifest.2548c28052eefd2e76668563cc2cfe7b.js",
+    "precache-manifest.91b33fdcb8a095b1100d35ac8c51224c.js": "/demo/pixelproject/precache-manifest.91b33fdcb8a095b1100d35ac8c51224c.js",
     "service-worker.js": "/demo/pixelproject/service-worker.js",
     "static/css/main.fd9ea794.chunk.css.map": "/demo/pixelproject/static/css/main.fd9ea794.chunk.css.map",
     "static/media/logo.svg": "/demo/pixelproject/static/media/logo.5d5d9eef.svg"
