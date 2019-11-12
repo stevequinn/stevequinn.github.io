@@ -1,77 +1,101 @@
-html, body {
-    font-family: Raleway, sans-serif;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  font-family: Raleway, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-    font-weight: 700;
-    font-size: 4em;
-    margin: 0;
-    
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0;
 }
 .heading {
-    padding-bottom: 2em;
+  padding-bottom: 2em;
 }
 .container {
-    text-align: center;
-    position: relative;
-    top: 40%;
-    transform: translateY(-40%);
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transform: translateY(-40%);
 }
 .icon {
-    padding-right: 1em;
+  padding-right: 1em;
 }
-a.icon, a.icon:hover {
-    color: transparent;
+a.icon,
+a.icon:hover {
+  color: transparent;
 }
 .icon svg {
-    width: 32px;
-    fill: #999;
+  width: 32px;
+  fill: #999;
 }
 .linkedin:hover svg {
-    fill: #0077B5;
+  fill: #0077b5;
 }
-.twitter:hover svg{
-    fill: #1DA1F2;
+.twitter:hover svg {
+  fill: #1da1f2;
 }
-.email:hover svg{
-    fill: #D14836;
+.email:hover svg {
+  fill: #d14836;
 }
 .dots {
-    position: relative;
-    display: inline-block;
-    width: 10em;
+  position: relative;
+  display: inline-block;
+  width: 10em;
 }
 .dots i {
-    visibility: hidden;
-    position: absolute;
-    top: 1em;
+  visibility: hidden;
+  position: absolute;
+  top: 1em;
 }
 .dots i:before {
-    font-size: 4em;
-    font-style: normal;
-    content: "\2022";
-    line-height: 0;
+  font-size: 4em;
+  font-style: normal;
+  content: "\2022";
+  line-height: 0;
 }
-.dots i:nth-child(1)  {
-    color: #0077B5;
-    left: .5em;
+.dots i:nth-child(1) {
+  color: #0077b5;
+  left: 0.5em;
 }
-.dots i:nth-child(2)  {
-    color: #1DA1F2;
-    left: 3.8em;
+.dots i:nth-child(2) {
+  color: #1da1f2;
+  left: 3.8em;
 }
-.dots i:nth-child(3)  {
-    color: #D14836;
-    left: 7.05em;
+.dots i:nth-child(3) {
+  color: #d14836;
+  left: 7.05em;
 }
 
-@media (max-width:480px){
-    h1 {
-        font-size: 2.5em;
-    }
-    .icon svg {
-        width: 28px;
-    }
+.fullscreen-bg__video,
+.fullscreen-bg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url("../images/bernieFrame.jpg") center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .icon svg {
+    width: 28px;
+  }
 }
